@@ -12,9 +12,9 @@
 <body>
     <h1 style="display:inline;">Yifei Wang</h1>
     <a href="https://github.com/SypacePirate" target="_blank" rel="noopener"> GitHub</a>
+    <a href="https://sypacepirate.github.io/CV/">CV</a>
     <div style="display: flex; justify-content: space-between;font-weight: bold;">
         <span>Email: wingerw@bu.edu</span>
-        <span>CV:</span>
         <span>Mobile: 857-472-2326</span>
     </div>
     <hr>
@@ -94,24 +94,32 @@
     </ul>
     <hr>
     <h2>Projects</h2>
-    <h3 style="display:inline;">On-device Neural Network Mobile App Developer</h3>
+    <h3 style="display:inline;">On-device Neural Network Mobile Android App Developer</h3>
     <a href="https://github.com/SypacePirate/mobile_face_reaging" target="_blank" rel="noopener"> GitHub</a>
     <ul>
-        <li>Designed and developed multiple AI-powered mobile applications, including facial age modification, voice
-            cloning, image generation (Stable Diffusion), and LLM-based agents.</li>
-        <li>Implemented advanced model optimization techniques such as fine-tuning, pruning, and quantization to enable
-            efficient offline deployment on mobile devices.</li>
-        <li>Achieved significant performance improvements while maintaining high accuracy, ensuring smooth user
-            experience on resource-constrained environments.</li>
+        <li>Developed 3 production-ready Android apps with offline AI capabilities: face re-aging, voice
+            cloning, and LLM-based agent. Eliminating cloud dependency for core features while maintaining output quality</li>
+        <li>Selected specialized U-Net for face re-aging and optimized by quantization and batching. Reduced memory footprint to run on low-end Android Devices. </li>
+        <li>Selected specialized tts model and optimized it by quantization and pruning. Ensured customize voices (more than voice generating ) on low-end Andorid Devices.</li>
+        <li>Designed an LLM agent with several small language models, which is able to run offline but also with web search capability.</li>
+    </ul>
+    <h3 style="display:inline;">Bayesian Classifier Extension for Sklearn</h3>
+    <a href="https://github.com/SypacePirate/StatsNB" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://pypi.org/project/statsnb/" target="_blank" rel="noopener"> PYPI</a>
+    <ul>
+        <li>Developed and published a production-ready Python package extending sklearn's Naive Bayes classifiers
+            to support 80+ probability distributions beyond Gaussian, achieving full API compatibility</li>
+        <li>Implemented two variants: MomentNB (Method of Moments, close to vanilla speed) and StatsNB (MLE-based, maximum
+            flexibility), offering differentiated software design for performance-flexibility trade-offs</li>
+        <li>Published on PyPI with complete documentation, comprehensive unit tests, semantic versioning, and sklearn coding standards</li>
     </ul>
     <h3 style="display:inline;">Alignment Fellow in Boston University AI Safety & Alignment (F25)</h3>
     <a href="https://buaisa.org/" target="_blank" rel="noopener">Home</a>
 
     <ul>
         <li>Selected as a fellow to study foundational and technical aspects of AI Safety and Alignment.</li>
-        <li>Curriculum adapted from BlueDot Impact Alignment course, integrating material from AISST and AISI at Georgia
-            Tech.</li>
-        <li>Explored topics including RLHF, interpretability, scalable oversight, red teaming, and AI policy.</li>
+        <li>Studied Specification Gaming, Mechanical Interpretability, Goal Misgeneralization</li>
+        <li>Explored Constitutional AI, Scalable Oversight,Red Teaming and Agents.</li>
         <li>Collaborated with peers on weekly discussions and research-based projects related to safe AI deployment.
         </li>
     </ul>
@@ -159,15 +167,7 @@
         <li>Explored trend change detection, and polynomial label predictors. Implemented and compared multiple trading
             strategies under various window sizes and performed clustering to uncover ticker similarities.</li>
     </ul>
-    <h3 style="display:inline;">Bayesian Classifier Extension for Sklearn</h3>
-    <a href="https://github.com/SypacePirate/StatsNB" target="_blank" rel="noopener"> GitHub</a>
-    <ul>
-        <li>Built a package extending scikit-learn's API to support any scipy.stats distribution beyond Gaussian.
-            Features fully vectorized computing and 100% compatibility to scikit-learn API. Allowed flexible parameter
-            settings, including prior and fixed hyperparameters.</li>
-        <li>Integrated MCMC and Variational Inference to estimate posterior distributions and perform Bayesian inference
-            on log-likelihood, enabling robust classification under complex data assumptions</li>
-    </ul>
+
     <h3>Bayesian Inference of Point Processes—Based on Variational Inference</h3>
     <ul>
         <li>Applied the kernel method in “Sparse Spectral Bayesian Permanental Process with Generalized Kernel” to
